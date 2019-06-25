@@ -1,0 +1,348 @@
+html {
+	background-color: #000;
+	color: #fff;
+}
+.link-primary {
+	color: #fff;
+}
+.link-primary:hover {
+	color: #00a3da;
+	text-decoration: none;
+}
+.secondary .link-primary {
+	color: #000;
+}
+.pull-below-header {
+	margin-top: null;
+}
+.secondary {
+	background-color: #fff;
+}
+.theme-icon {
+	stroke-width: 1;
+}
+.wTfsC {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-radius: none;
+}
+.V2V8_ {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+._3Mymo {
+	color: #fff;
+}
+._21Y53 {
+	background-color: #000;
+	border-top: 0.125rem solid rgba(255, 255, 255, 0.2);
+}
+._1tBLJ {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+._3ejro {
+	background: #000;
+	border: 0.0625rem solid rgba(255, 255, 255, 0.3);
+}
+._28uaJ:first-child {
+	border-right: 0.0625rem solid rgba(255, 255, 255, 0.3);
+}
+.hT20f {
+	border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.3);
+}
+.Sclpq:hover {
+	color: #00a3da;
+}
+._1T56j:hover {
+	color: #fff;
+}
+._1T56j button {
+	border-bottom: 0.0625rem solid #00a3da;
+}
+._1ySlK {
+	background: #00a3da;
+}
+._2FlsU::-webkit-slider-runnable-track {
+	background: rgba(255, 255, 255, 0.2);
+}
+._2FlsU:focus::-webkit-slider-runnable-track {
+	background: rgba(255, 255, 255, 0.2);
+}
+._2FlsU::-webkit-slider-thumb {
+	-webkit-box-shadow: 0.0625rem 0.0625rem 0.3125rem rgba(0, 0, 0, 0.2), 0 0 0.0625rem rgba(0, 0, 0, 0.2);
+	box-shadow: 0.0625rem 0.0625rem 0.3125rem rgba(0, 0, 0, 0.2), 0 0 0.0625rem rgba(0, 0, 0, 0.2);
+}
+._2FlsU::-moz-range-track {
+	background: rgba(255, 255, 255, 0.2);
+}
+._2FlsU:focus::-moz-range-track {
+	background: rgba(255, 255, 255, 0.2);
+}
+._2FlsU::-moz-range-thumb {
+	box-shadow: 0.0625rem 0.0625rem 0.3125rem rgba(0, 0, 0, 0.2), 0 0 0.0625rem rgba(0, 0, 0, 0.2);
+}
+._2FlsU::-ms-track {
+	background: rgba(255, 255, 255, 0.2);
+}
+._2FlsU::-ms-thumb {
+	box-shadow: 0.0625rem 0.0625rem 0.3125rem rgba(0, 0, 0, 0.2), 0 0 0.0625rem rgba(0, 0, 0, 0.2);
+}
+._1zxBS {
+	background-color: #000;
+	border: 0.0625rem solid rgba(255, 255, 255, 0.3);
+}
+._1N8S1 {
+	background: #242424;
+}
+.gg6jA:hover {
+	background-color: #404040;
+}
+._3LXT0._88XGK:before {
+	border-radius: 0 0 0 0;
+}
+._3LXT0._1UMfM:after {
+	border-radius: 0 0 0 0;
+}
+._3vT_z {
+	background-color: #242424;
+}
+._38Ja0:hover ._1SjNn,
+  ._38Ja0:hover .yZ7b- {
+	color: #00a3da;
+	text-decoration: none;
+}
+.yZ7b- {
+	display: block;
+}
+.yWPeT:after {
+	background: linear-gradient(0deg, #000, transparent);
+}
+.secondary .yWPeT:after {
+	background: linear-gradient(0deg, #fff, transparent);
+}
+._32JlI:hover ._2t1vI,
+  ._32JlI:hover ._29Oa1 {
+	color: #00a3da;
+	text-decoration: none;
+}
+._29Oa1 {
+	display: block;
+}
+.BVUrr {
+	background-color: #000;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.BVUrr:hover {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+._368jy {
+	border-radius: 0;
+}
+._1OPcT._2JbnS:hover ._17BGJ,
+._1OPcT._2JbnS:hover .ac_ai,
+._1OPcT._2JbnS:hover .ac_ai ._34PHF {
+	color: #00a3da;
+	text-decoration: none;
+}
+.secondary ._1OPcT._2JbnS:hover ._17BGJ, .secondary
+  ._1OPcT._2JbnS:hover .ac_ai, .secondary
+  ._1OPcT._2JbnS:hover .ac_ai ._34PHF {
+	color: #000;
+}
+._34PHF {
+	color: rgb(161, 161, 161) !important;
+}
+._3PAfF {
+	background: #242424;
+	border-radius: 0;
+}
+._2W7PE {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+._2lEJA {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+._1v20p {
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+._1thcW {
+	border-radius: 0;
+}
+._2_FFR.no-banner {
+	background-color: #262626;
+}
+._2_FFR .card-placeholder {
+	background-color: #141414;
+}
+.D6Br9,
+._2CAnE {
+	font-weight: normal;
+}
+.A1MD2 {
+	background-color: rgba(161, 161, 161, 0.5);
+}
+.A1MD2 .progress-bar {
+	background-color: #fff;
+}
+.TYt7P {
+	background: #242424;
+}
+._1KV1E {
+	opacity: 0.5;
+}
+._2gScx {
+	height: 2px;
+	background: #00a3da;
+}
+.secondary ._3VxrN {
+	background: #fff;
+}
+.secondary ._1nyku:after {
+	background: linear-gradient(-90deg, transparent, #fff);
+}
+.secondary ._27DPy:after {
+	background: linear-gradient(90deg, transparent, #fff);
+}
+._3E3zS {
+	background-image: linear-gradient(to right, #000, transparent);
+}
+.aJZZ8 {
+	background-image: linear-gradient(to left, #000, transparent);
+}
+._11qSg {
+	background: #242424;
+}
+._2xsDy {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent);
+}
+._2igKK {
+	background: rgba(0, 0, 0, 0.8);
+}
+._4g_MG ._3BI63 {
+	background: #000;
+}
+.aFEHE {
+	font-weight: 300;
+}
+._1RJz_:hover {
+	color: #fff;
+}
+._2xpP7:hover {
+	color: #00a3da;
+}
+.HYnyt {
+	background-color: #000;
+}
+._13I-u {
+	background-color: #000;
+}
+.fp2ON {
+	background-color: #000;
+}
+.zGIST {
+	border-bottom: 0.0625rem solid rgba(132, 132, 132, 0.5);
+}
+.UPsaU:-moz-placeholder {
+	color: #fff;
+}
+.UPsaU::-moz-placeholder {
+	color: #fff;
+}
+.UPsaU:-ms-input-placeholder {
+	color: #fff;
+}
+.UPsaU::-webkit-input-placeholder {
+	color: #fff;
+}
+._1g10s {
+	background-color: #262626;
+}
+._1g10s:not(._3hvpk) .FQoy0 {
+	background-color: #141414;
+}
+._2GEh0 {
+	background-image: linear-gradient(90deg, #262626, transparent);
+}
+._2eZwt {
+	background-image: linear-gradient(-90deg, #262626, transparent);
+}
+._12WWE {
+	color: #fff;
+}
+.kbeip {
+	color: #00a3da;
+}
+._3kE3H {
+	border-radius: 0;
+}
+._3kE3H::before {
+	border-radius: 0;
+	color: #00a3da;
+}
+._2eU5N {
+	background-color: #141414;
+}
+._1Qk3L,
+._3vBY1 {
+	background-color: #141414;
+}
+._1Hv9y,
+._1nobI {
+	background-color: #141414;
+}
+._1kFyX {
+	font-weight: 300;
+}
+.FQoy0 {
+	border-radius: 0;
+}
+.LD_c1 {
+	font-weight: 200;
+}
+.bGzAP {
+	font-weight: 200;
+}
+._39OU4 {
+	font-weight: 200;
+}
+body {
+	font-weight: 300;
+}
+._1Ojdv {
+	color: #00a3da;
+	font-weight: 200;
+}
+._2WKMQ {
+	font-weight: 200;
+}
+._17NST {
+	font-weight: 200;
+}
+.secondary {
+	color: #000;
+}
+.secondary ._2WKMQ {
+	color: #000;
+}
+.secondary ._1Ojdv {
+	color: #fff;
+}
+._1vbnE .preview:before {
+	color: #00a3da;
+}
+._1vbnE:hover .preview:before {
+	opacity: 1;
+}
+.kYJb5 .preview:before {
+	border-radius: 0;
+	color: #00a3da;
+}
+.kYJb5:hover .preview:before {
+	opacity: 1;
+}
