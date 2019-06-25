@@ -63,6 +63,7 @@ Lo que podrás realizar en esta aplicación:
 - Registro de usuarios
 - Login de usuarios
 - Validación de datos
+- Generación de 100 usuarios aleatorios con [Faker](https://laravel.com/docs/5.8/database-testing)
 - Listado de series
 - Filtros(Series, Peliculas y tu lista)
 - Ver los detalles de series
