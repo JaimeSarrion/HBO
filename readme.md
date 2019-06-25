@@ -6,7 +6,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
- # Introduccion
+ # Introducción
 Esta es una práctica para la asignatura de Ingeniería Web de la [Universidad de Alicante](https://www.ua.es/). La práctica consistía en hacer una pequeña página web con [Laravel](https://laravel.com/), la cual debería ser similar a alguna web que ya existiera, con el fin de intentar replicar algo de lo que desconociamos el código, sus dependencias, clases, etc. En mi caso seleccioné la página de [HBO](https://es.hboespana.com/)
 
 A continuación muestro algunas capturas de la aplicación lograda:
@@ -36,7 +36,7 @@ A continuación muestro algunas capturas de la aplicación lograda:
 
 Una vez tenemos XAMPP instalado, iremos al administrador de MySQL(Phpmyadmin), y lo que haremos será crear una BBDD con el nombre de hbo, además, crearemos un usuario con su contraseña, en mi caso he elegido: hbo - hbo. 
 
-Es importante acordarnos de estos datos, puesto que hemos de añadir los datos en el .env del proyecto.He añadido un .env.example que es un ejemplo de como debería quedar, recuerda **crearte el tuyo propio.**
+Es importante acordarnos de estos datos, puesto que hemos de añadir los datos en el .env del proyecto. He añadido un .env.example que es un ejemplo de como debería quedar, recuerda **crearte el tuyo propio.**
 
 ## Instalación
 
@@ -52,7 +52,7 @@ Abrimos un terminal en la raiz del proyecto y ejecutamos los siguientes comandos
 
 ## Ejecución
 
-Para poner en marcha este proyecto, desde la carpeta raíz, abrimos un terminal y tecleamos:
+Para poner en marcha este proyecto(localhost:8080), desde la carpeta raíz, abrimos un terminal y tecleamos:
 
 `php artisan serve`
 
