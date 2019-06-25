@@ -1,47 +1,84 @@
+
+<img src="app/github_images/hbo-icono.png" height="200">
+
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## About Laravel
+ # Introduccion
+Esta es una práctica para la asignatura de Ingeniería Web de la [Universidad de Alicante](https://www.ua.es/). La práctica consistía en hacer una pequeña página web con [Laravel](https://laravel.com/), la cual debería ser similar a alguna web que ya existiera, con el fin de intentar replicar algo de lo que desconociamos el código, sus dependencias, clases, etc. En mi caso seleccioné la página de [HBO](https://es.hboespana.com/)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+A continuación muestro algunas capturas de la aplicación lograda:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<img src="app/github_images/hbo-home.png">
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
 
-## Learning Laravel
+<img src="app/github_images/hbo-series.png">
 
-Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+<img src="app/github_images/hbo-got.png">
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](http://patreon.com/taylorotwell):
+<img src="app/github_images/hbo-registro.png">
 
-- **[Vehikl](http://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Styde](https://styde.net)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
 
-## Contributing
+# Guía de despliegue
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+## Prerrequisitos
 
-## Security Vulnerabilities
+- [Composer](https://getcomposer.org/)
+> Composer es un administrador de paquetes a nivel de aplicación para el lenguaje de programación PHP que proporciona un formato estándar para administrar las dependencias del software PHP y las bibliotecas requeridas.
+- [XAMPP](https://www.apachefriends.org/es/index.html)
+> XAMPP es un paquete de software libre, que consiste principalmente en el sistema de gestión de bases de datos MySQL, el servidor web Apache y los intérpretes para lenguajes de script PHP y Perl
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+## BBDD
 
-## License
+Una vez tenemos XAMPP instalado, iremos al administrador de MySQL(Phpmyadmin), y lo que haremos será crear una BBDD con el nombre de hbo, además, crearemos un usuario con su contraseña, en mi caso he elegido: hbo - hbo. 
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Es importante acordarnos de estos datos, puesto que hemos de añadir los datos en el .env del proyecto.He añadido un .env.example que es un ejemplo de como debería quedar, recuerda **crearte el tuyo propio.**
+
+## Instalación
+
+Abrimos un terminal en la raiz del proyecto y ejecutamos los siguientes comandos:
+
+`composer install`
+
+`composer update`
+
+`php artisan migrate:refresh --seed` 
+
+> Es posible que tengas que generar tu propia key para el cifrado, con introducir `php artisan key:generate` debería bastar
+
+## Ejecución
+
+Para poner en marcha este proyecto, desde la carpeta raíz, abrimos un terminal y tecleamos:
+
+`php artisan serve`
+
+
+## Funcionalidades
+
+Lo que podrás realizar en esta aplicación:
+- Registro de usuarios
+- Login de usuarios
+- Validación de datos
+- Listado de series
+- Filtros(Series, Peliculas y tu lista)
+- Ver los detalles de series
+- Ver los detalles de las peliculas
+- Opciones de administrador:
+  + CRUD Peliculas
+  + CRUD Series
+  + CRUD Usuarios
+
+# Autores
+
+- [Jaime Sarrión](https://github.com/JaimeSarrion) - [Linkedin](https://www.linkedin.com/in/jaime-sarri%C3%B3n-sahuquillo-b086ba144/)
+- [Francisco Javier Falcó](https://github.com/fjfg8)
+
+# Licencias
+
+Este proyecto está bajo la licencia GNU GPL v3 - revisa  [LICENSE](https://github.com/JaimeSarrion/Grandallapp/blob/master/LICENSE)  para ver más detalles.
+
+Laravel es un software de código abierto bajo la licencia  [MIT license](http://opensource.org/licenses/MIT).
