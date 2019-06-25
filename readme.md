@@ -1,7 +1,7 @@
 
 <img src="app/github_images/hbo-icono.png" height="200">
 
-<p align="center">
+<p align="right">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
